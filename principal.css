@@ -1,0 +1,150 @@
+header{
+    background-color: #2C3E50;
+}
+
+.galeria{
+    background-color: #D4AF37;
+}
+
+.producto{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+body{
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header h2{
+    color: white;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h3{
+    color: #8b4513;
+}
+
+p{
+    color: #333;
+    line-height: 1.5;
+}
+
+.curiosidad{
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.curiosidad img{
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+}
+
+.curiosidad:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.curiosidad h2,
+.curiosidad h3{
+    color: #8B4513;
+}
+
+.sabias{
+    background: #EAEAEA;
+    padding: 30px;
+    border-radius: 20px;
+    font-size:32px;
+    color:#2C3E50;
+    letter-spacing:2px;
+}
+
+main{
+    padding: 20px;
+}
+
+header{
+    padding: 10px;
+}
+
+.formulario{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+input, select{
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.boton{
+    background-color: #D4AF37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background:#2C3E50;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top: 40px;
+}
+
+.footer-contenido {
+    color:#f7be05;
+}
+
+.frase{
+    text-align:center;
+    font-size:24px;
+    font-style:italic;
+    margin-top:30px;
+    color:#8B4513;
+}
+
+.preguntas{
+    margin-top: 30px;
+}
+
+details{
+    width: 500px;
+    margin: 10px auto;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+summary{
+    font-weight: bold;
+    cursor: pointer;
+    color: #8B4513;
+}
