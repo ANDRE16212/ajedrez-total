@@ -1,0 +1,241 @@
+header{
+    background-color: #2C3E50;
+}
+
+.galeria{
+    background-color: #D4AF37;
+}
+
+.producto{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray;
+}
+
+body{
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.hero-bootstrap{
+    background: linear-gradient(135deg, #fff8dc 0%, #f7e7ad 100%);
+}
+
+.img-card{
+    height: 220px;
+    object-fit: cover;
+}
+
+.card:hover{
+    transform: translateY(-4px);
+    transition: 0.3s ease;
+}
+
+.main-header{
+    background: linear-gradient(90deg, #2c3e50, #4b6584);
+    padding: 12px 0;
+}
+
+.brand-logo{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.hero-section{
+    background: #fffdf2;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.hero-image{
+    height: 260px;
+    object-fit: cover;
+}
+
+.product-card{
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.product-card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.price{
+    font-weight: 700;
+    color: #8b4513;
+    font-size: 1.05rem;
+}
+
+.contact-card,
+.contact-form{
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.cart-item{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.cart-item:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.cart-empty{
+    color: #6c757d;
+    font-style: italic;
+}
+
+#cartMessage .alert{
+    border-radius: 12px;
+}
+
+.site-footer{
+    background: #2c3e50;
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.site-footer h3,
+.site-footer p{
+    color: white;
+}
+
+header h2{
+    color: white;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h3{
+    color: #8b4513;
+}
+
+p{
+    color: #333;
+     line-height:1.5;
+}
+
+.curiosidad{
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.curiosidad img{
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+}
+
+.curiosidad:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.curiosidad h2,
+.curiosidad h3{
+    color: #8B4513;
+}
+
+.sabias{
+    background: #EAEAEA;
+    padding: 30px;
+    border-radius: 20px;
+    font-size:32px;
+    color:#2C3E50;
+    letter-spacing:2px;
+}
+
+main{
+    padding: 20px;
+}
+
+header{
+    padding: 10px;
+}
+
+.formulario{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+input, select{
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.boton{
+    background-color: #D4AF37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background:#2C3E50;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top: 40px;
+}
+
+.footer-contenido {
+    color:#f7be05;
+}
+
+.frase{
+    text-align:center;
+    font-size:24px;
+    font-style:italic;
+    margin-top:30px;
+    color:#8B4513;
+}
+
+.preguntas{
+    margin-top: 30px;
+}
+
+details{
+    width: 500px;
+    margin: 10px auto;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+summary{
+    font-weight: bold;
+    cursor: pointer;
+    color: #8B4513;
+}
