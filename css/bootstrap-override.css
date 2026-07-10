@@ -1,0 +1,36 @@
+/* Estilos específicos de Bootstrap que se usan en el sitio */
+.navbar-brand {
+  font-size: 1.1rem;
+}
+
+.navbar-dark .nav-link {
+  color: #fff !important;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #f7be05 !important;
+}
+
+.btn-warning {
+  background-color: #f7be05;
+  border-color: #f7be05;
+  color: #1f1f1f;
+}
+
+.btn-warning:hover {
+  background-color: #e0aa00;
+  border-color: #e0aa00;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-4 {
+  border-radius: 1.2rem;
+}
